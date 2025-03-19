@@ -12,7 +12,7 @@ export function Header() {
               </Link>
             </li>
             <li>
-              <Link href="/dashboard" className="hover:text-gray-400">
+              <Link href="/polizas" className="hover:text-gray-400">
                 Pólizas
               </Link>
             </li>
