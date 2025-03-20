@@ -18,7 +18,7 @@ const HomePage = () => {
         {/* Texto na esquerda */}
         <div className="flex-1 text-center md:text-left md:pr-8">
           <h1 className="text-6xl font-bold">MILENE BORGES</h1>
-          <p className="mt-4 font-bold text-[#9D2235]-300">GESTORA</p>
+          <p className="mt-4 font-bold text-[#BE0F0F]">GESTORA</p>
           <p className="mt-4 text-300">
             Soy auxiliar administrativo en MAPFRE, apoyando en siniestros,
             pólizas y seguros de vida. Gestiono documentación, atiendo consultas

@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Muller Extra Bold";
+  src: url("/fonts/Muller-ExtraBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Muller Thin";
+  src: url("/fonts/Muller-Thin.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

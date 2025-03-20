@@ -3,9 +3,20 @@ import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import clsx from "clsx";
 
-const AnimatedImage = ({ src, alt = "Imagem animada", className = "" }) => {
+// Definição da interface para as props do componente
+interface AnimatedImageProps {
+  src: string;
+  alt?: string;
+  className?: string;
+}
+
+const AnimatedImage: React.FC<AnimatedImageProps> = ({
+  src,
+  alt = "Imagem animada",
+  className = "",
+}) => {
   const [isVisible, setIsVisible] = useState(false);
-  const imageRef = useRef(null);
+  const imageRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -18,7 +29,7 @@ const AnimatedImage = ({ src, alt = "Imagem animada", className = "" }) => {
           }
         });
       },
-      { threshold: 0.9 } // Define quando o elemento deve ser considerado visível (30% dele na tela)
+      { threshold: 0.4 } // Define quando o elemento deve ser considerado visível (30% dele na tela)
     );
 
     if (imageRef.current) {

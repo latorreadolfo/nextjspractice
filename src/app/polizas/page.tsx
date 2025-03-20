@@ -1,13 +1,14 @@
 import AnimatedImage from "@/components/AnimatedImage";
+import UserLocation from "@/components/UserLocation";
 
 export default function Polizas() {
   return (
-    <div className="flex flex-col p-6">
-      <div className="min-h-screen container mx-auto flex flex-col md:flex-row items-center gap-8">
+    <div className="flex flex-col p-3 ">
+      <div className="min-h-screen container mx-auto flex flex-col md:flex-row items-center">
         {/* Texto na esquerda */}
         <div className="flex-1 text-center md:text-left md:pr-8">
-          <h1 className="text-6xl font-bold">PÓLIZAS</h1>
-          <p className="mt-4 font-bold text-[#9D2235]">
+          <h1 className="text-6xl font-bold">Pólizas</h1>
+          <p className="mt-4 font-bold text-[#BE0F0F]">
             Ofrecemos varios tipos de seguros adaptados a sus necesidades:
           </p>
           <p className="mt-4 text-300">
@@ -22,14 +23,14 @@ export default function Polizas() {
           </p>
         </div>
 
-        <AnimatedImage src="/assets/insurance.jpg" />
+        <AnimatedImage src="/assets/insurance.svg" />
       </div>
 
-      <div className="min-h-screen container mx-auto flex flex-col md:flex-row items-center gap-8">
+      <div className="min-h-screen container mx-auto flex flex-col md:flex-row items-center mt-[50%] md:mt-0">
         {/* Texto na esquerda */}
         <div className="flex-1 text-center md:text-left md:pr-8">
           <h1 className="text-6xl font-bold">Seguro Completo Vehicular</h1>
-          <p className="mt-4 font-bold text-[#9D2235]">
+          <p className="mt-4 font-bold text-[#BE0F0F]">
             Cobertura total para su vehículo
           </p>
           <p className="mt-4 text-300">
@@ -46,15 +47,15 @@ export default function Polizas() {
           </p>
         </div>
 
-        <AnimatedImage src="/assets/segurocompletovehicular.png" />
+        <AnimatedImage src="/assets/segurocompletovehicular.svg" />
       </div>
-      <div className="min-h-screen container mx-auto flex flex-col md:flex-row items-center gap-8">
+      <div className="min-h-screen container mx-auto flex flex-col md:flex-row items-center mt-[50%] md:mt-0">
         {/* Texto na esquerda */}
         <div className="flex-1 text-center md:text-left md:pr-8">
           <h1 className="text-6xl font-bold">
             Seguro Contra Terceros Veicular
           </h1>
-          <p className="mt-4 font-bold text-[#9D2235]">
+          <p className="mt-4 font-bold text-[#BE0F0F]">
             Protección básica en accidentes
           </p>
           <p className="mt-4 text-300">
@@ -71,13 +72,13 @@ export default function Polizas() {
           </p>
         </div>
 
-        <AnimatedImage src="/assets/segurotercerosvehicular.png" />
+        <AnimatedImage src="/assets/segurotercerosvehicular.svg" />
       </div>
-      <div className="min-h-screen container mx-auto flex flex-col md:flex-row items-center gap-8">
+      <div className="min-h-screen container mx-auto flex flex-col md:flex-row items-center mt-[20%] md:mt-0">
         {/* Texto na esquerda */}
         <div className="flex-1 text-center md:text-left md:pr-8">
           <h1 className="text-6xl font-bold">Seguro de Vida</h1>
-          <p className="mt-4 font-bold text-[#9D2235]">
+          <p className="mt-4 font-bold text-[#BE0F0F]">
             Seguridad financiera para su familia
           </p>
           <p className="mt-4 text-300">
@@ -94,14 +95,14 @@ export default function Polizas() {
           </p>
         </div>
 
-        <AnimatedImage src="/assets/segurovida.png" />
+        <AnimatedImage src="/assets/segurovida.svg" />
       </div>
 
-      <div className="min-h-screen container mx-auto flex flex-col md:flex-row items-center gap-8">
+      <div className="min-h-screen container mx-auto flex flex-col md:flex-row items-center mt-[50%] md:mt-0">
         {/* Texto na esquerda */}
         <div className="flex-1 text-center md:text-left md:pr-8">
           <h1 className="text-6xl font-bold">Seguro VIP</h1>
-          <p className="mt-4 font-bold text-[#9D2235]">
+          <p className="mt-4 font-bold text-[#BE0F0F]">
             Beneficios exclusivos y cobertura ampliada
           </p>
           <p className="mt-4 text-300">
@@ -119,7 +120,7 @@ export default function Polizas() {
           </p>
         </div>
 
-        <AnimatedImage src="/assets/vip.png" />
+        <AnimatedImage src="/assets/vip.svg" />
       </div>
     </div>
   );
